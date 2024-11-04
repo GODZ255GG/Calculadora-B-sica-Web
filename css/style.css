@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000000, #1f3d6b);
+}
+
+header {
+    text-align: center;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(1, 123, 23);
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    width: 40%;
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+table {
+    width: 100%;
+}
+input[type=button]{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+input[type=button]:hover {
+    background-color: #B7D7F9;
+}
+
+#txt_resultado{
+    width: 100%;
+    height: 50px;
+    border: none;
+    text-align: right;
+    color: black;
+    font-size: 45px;
+    font-family: Consolas;
+    background-color: gainsboro;
+}
+
+#b_ig{
+    background-color: #C6F9B7;
+    border: none;
+    color: black;
+    width: 100%;
+    height: 50px;
+    border-radius: 0%;
+    transition-duration: 0.5s;    
+}
+
+#b_ig:hover{
+    background-color: #66CF47;
+}
+
+/* Estilos para botones con íconos */
+#b_lim, #b_bor {
+    width: 60px;
+    height: 60px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px; /* Ajusta el tamaño del icono */
+    cursor: pointer;
+    transition-duration: 2s;
+    background-color: transparent;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+}
+
+/* Efecto al pasar el mouse */
+#b_lim:hover, #b_bor:hover {
+    background-color: #B7D7F9;
+}
